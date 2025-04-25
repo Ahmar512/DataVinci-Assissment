@@ -9,7 +9,7 @@ function App() {
 
 
   const fetchData = async () =>{
-    const response = await axios.get("http://localhost:3000/campaign");
+    const response = await axios.get("https://datavinci-assissment.onrender.com/campaign");
     setData(response.data);
   }
 
